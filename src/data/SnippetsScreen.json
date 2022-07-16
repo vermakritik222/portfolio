@@ -1,0 +1,91 @@
+[
+    {
+        
+        "_id":1001,
+        "name":"JavaScript",
+        "img":"/img/232X232/js.png",
+        "founder":"Brendan Eich",
+        "file":"js",
+        "lang":"js"
+    },
+    {
+        
+        "_id":1002,
+        "name":"React JS",
+        "img":"/img/232X232/reactjs.png",
+        "founder":"Jordan Walke",
+        "file":"react",
+        "lang":"jsx"
+    },
+    {
+        
+        "_id":1003,
+        "name":"Docker",
+        "img":"/img/232X232/docker.png",
+        "founder":"Kamel Founadi",
+        "file":"docker",
+        "lang":"jsx"
+    },
+    {
+        
+        "_id":1004,
+        "name":"Git",
+        "img":"/img/232X232/git.png",
+        "founder":"Linus Torvalds",
+        "file":"git",
+        "lang":"jsx"
+    },
+    {
+        "_id":1005,
+        "name":"Node.js",
+        "img":"/img/232X232/node.jpg",
+        "founder":"Ryan Dahl"
+    },
+    {
+        "_id":1006,
+        "name":"ExpressJS",
+        "img":"/img/232X232/expressjs.png",
+        "founder":"Holowaychuk"
+    },
+    {
+        "_id":1007,
+        "name":"MongoDb",
+        "img":"/img/232X232/MongoDB.png"
+        ,"founder":"Fuck You"
+    },
+    {
+        "_id":1008,
+        "name":"Material UI,",
+        "img":"/img/232X232/materialui.png"
+        ,"founder":"Fuck You"
+    },
+    {
+        "_id":1009,
+        "name":"C++",
+        "img":"/img/232X232/cpp.jpg",
+        "founder":"Fuck You",
+        "file":"cpp",
+        "lang":"cpp"
+
+    },
+    {
+        "_id":1010,
+        "name":"CSS",
+        "img":"/img/232X232/css.png",
+        "founder":"Fuck You"
+    },
+    {
+        "_id":1011,
+        "name":"HTML",
+        "img":"/img/232X232/html.png",
+        "founder":"Fuck You",
+        "file":"html",
+        "lang":"html"
+    },
+    {
+        "_id":1012,
+        "name":"SCSS",
+        "img":"/img/232X232/scss.png",
+        "founder":"Fuck You"
+    }
+]

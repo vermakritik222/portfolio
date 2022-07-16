@@ -1,0 +1,22 @@
+.singleSnippetsCodeCard {
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 10px;
+    > P {
+        max-width: 85%;
+    }
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    &:hover {
+        transform: scale(1.02);
+        background-color: rgba(0, 0, 0, 1);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+}

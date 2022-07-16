@@ -1,0 +1,31 @@
+@import "../../fonts/theBoys/stylesheet.css";
+
+.snippetsScreen {
+    padding: 60px 0;
+    background-color: #0f172e;
+}
+
+.snippetsScreen__headerCover {
+    border-bottom: 1px solid white;
+    > .snippetsScreen__header {
+        color: white;
+        width: 1300px;
+
+        margin: 0 auto 60px auto;
+        font-family: "Charlie don't surf!";
+
+        > h1 {
+            text-transform: capitalize;
+            font-size: 3.4rem;
+        }
+    }
+}
+
+.snippetsScreen__container {
+    width: 1200px;
+    margin: 60px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    // border: 1px solid #4662be50;
+    background-color: #0f172e;
+}

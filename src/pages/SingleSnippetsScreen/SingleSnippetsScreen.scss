@@ -1,0 +1,30 @@
+@import "../../fonts/theBoys/stylesheet.css";
+
+.singleSnippetsScreen {
+    padding: 50px 0;
+    background-color: #0f172e;
+}
+
+.singleSnippetsScreen__headerCover {
+    > .singleSnippetsScreen__header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.449);
+        color: white;
+        width: 1300px;
+        margin: 0 auto 60px auto;
+        font-family: "Charlie don't surf!";
+        > h1 {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 3rem;
+        }
+    }
+}
+
+.singleSnippetsScreen__container {
+    width: 1200px;
+    margin: 60px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    // border: 1px solid #4662be50;
+    background-color: #0f172e;
+}
