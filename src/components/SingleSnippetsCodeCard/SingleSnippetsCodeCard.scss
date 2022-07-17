@@ -20,3 +20,8 @@
         border: 1px solid rgba(255, 255, 255, 0.4);
     }
 }
+.singleSnippetsCodeCard__active {
+    transform: scale(1.02);
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
