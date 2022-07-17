@@ -1,20 +1,10 @@
 export const data = {
   header: {
     _id: 1,
-    name: "Testing",
-    text: `import React from "react";
-import "./SingleSnippetsCodeCard.scss";
-
-function SingleSnippetsCodeCard() {
-  return (
-    <div className="singleSnippetsCodeCard">
-      <p>Functional Component</p>
-    </div>
-  );
-}
-
-export default SingleSnippetsCodeCard;
-    `,
+    name: "Installation",
+    text: `npx create-react-app my-app
+cd my-app
+npm start`,
   },
   data: [
     {
@@ -50,6 +40,66 @@ export default class SingleSnippetsCard extends Component {
     },
     {
       _id: 3,
+      name: "Class Component",
+      text: `import React, { Component } from 'react'
+    
+export class SingleSnippetsCard extends Component {
+  render() {
+    return (
+      <div>SingleSnippetsCard</div>
+    )
+  }
+}
+    
+export default SingleSnippetsCard`,
+    },
+    {
+      _id: 4,
+      name: "Class Component",
+      text: `import React, { Component } from 'react'
+    
+export class SingleSnippetsCard extends Component {
+  render() {
+    return (
+      <div>SingleSnippetsCard</div>
+    )
+  }
+}
+    
+export default SingleSnippetsCard`,
+    },
+    {
+      _id: 5,
+      name: "Class Component",
+      text: `import React, { Component } from 'react'
+    
+export class SingleSnippetsCard extends Component {
+  render() {
+    return (
+      <div>SingleSnippetsCard</div>
+    )
+  }
+}
+    
+export default SingleSnippetsCard`,
+    },
+    {
+      _id: 6,
+      name: "Class Component",
+      text: `import React, { Component } from 'react'
+    
+export class SingleSnippetsCard extends Component {
+  render() {
+    return (
+      <div>SingleSnippetsCard</div>
+    )
+  }
+}
+    
+export default SingleSnippetsCard`,
+    },
+    {
+      _id: 7,
       name: "Class Component",
       text: `import React, { Component } from 'react'
     

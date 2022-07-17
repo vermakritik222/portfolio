@@ -39,25 +39,34 @@
         "_id":1005,
         "name":"Node.js",
         "img":"/img/232X232/node.jpg",
-        "founder":"Ryan Dahl"
+        "founder":"Ryan Dahl",
+        "file":"node",
+        "lang":"js"
     },
     {
         "_id":1006,
         "name":"ExpressJS",
         "img":"/img/232X232/expressjs.png",
-        "founder":"Holowaychuk"
+        "founder":"Holowaychuk",
+        "file":"express",
+        "lang":"js"
     },
     {
         "_id":1007,
         "name":"MongoDb",
-        "img":"/img/232X232/MongoDB.png"
-        ,"founder":"Fuck You"
+        "img":"/img/232X232/MongoDB.png",
+        "founder":"Fuck You",
+        "file":"mongoDb",
+        "lang":"jsx"
+
     },
     {
         "_id":1008,
-        "name":"Material UI,",
+        "name":"Material UI",
         "img":"/img/232X232/materialui.png"
-        ,"founder":"Fuck You"
+        ,"founder":"Fuck You",
+        "file":"materialui"
+        ,"lang":"jsx"
     },
     {
         "_id":1009,
@@ -72,7 +81,9 @@
         "_id":1010,
         "name":"CSS",
         "img":"/img/232X232/css.png",
-        "founder":"Fuck You"
+        "founder":"Fuck You",
+        "file":"css",
+        "lang":"css"
     },
     {
         "_id":1011,
@@ -86,6 +97,8 @@
         "_id":1012,
         "name":"SCSS",
         "img":"/img/232X232/scss.png",
-        "founder":"Fuck You"
+        "founder":"Fuck You",
+        "file":"scss",
+        "lang":"scss"
     }
 ]
