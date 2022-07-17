@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
-import { Grid, Divider } from "@mui/material";
+import { Grid, Divider, IconButton } from "@mui/material";
 import { useDispatch } from "react-redux";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import { useHistory } from "react-router-dom";
 import SingleSnippetsCard from "../../components/SingleSnippetsCard/SingleSnippetsCard";
 import SingleSnippetsCode from "../../components/SingleSnippetsCode/SingleSnippetsCode";
 import SingleSnippetsCodeCard from "../../components/SingleSnippetsCodeCard/SingleSnippetsCodeCard";
@@ -11,6 +13,7 @@ import "./SingleSnippetsScreen.scss";
 
 function SingleSnippetsScreen() {
   const dispatch = useDispatch();
+  const history = useHistory();
   const query = window.location.search.split("=")[1] * 1;
   const [current] = metaData.filter((el) => el._id === query);
   const data = DisplayData[current.file];
@@ -30,7 +33,19 @@ function SingleSnippetsScreen() {
     <div className="singleSnippetsScreen">
       <div className="singleSnippetsScreen__headerCover">
         <div className="singleSnippetsScreen__header">
-          <h1>{current.name} snippet's</h1>
+          <h1>
+            <span style={{ marginRight: "10px" }}>
+              <IconButton
+                onClick={() => {
+                  history.goBack();
+                }}
+                sx={{ height: "54px", width: "54px", color: "white" }}
+              >
+                <ArrowBackIcon sx={{ fontSize: "3rem", color: "white" }} />
+              </IconButton>
+            </span>
+            {current.name} snippet's
+          </h1>
         </div>
       </div>
       <div className="singleSnippetsScreen__container">

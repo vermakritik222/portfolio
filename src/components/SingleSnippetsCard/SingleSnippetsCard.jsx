@@ -41,7 +41,7 @@ function SingleSnippetsCard(props) {
           </Typography> */}
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="add to favorites">
+          {/* <IconButton aria-label="add to favorites">
             <Favorite />
           </IconButton>
           <IconButton aria-label="share">
@@ -54,7 +54,7 @@ function SingleSnippetsCard(props) {
             aria-label="show more"
           >
             <ExpandMore />
-          </ExpandMore>
+          </ExpandMore> */}
         </CardActions>
         <Collapse in={false} timeout="auto" unmountOnExit>
           <CardContent>

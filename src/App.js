@@ -12,7 +12,7 @@ function App() {
             <Maintenance />
           </Route>
 
-          <Route path="/s">
+          <Route path="/snippets">
             <SnippetsScreen />
           </Route>
 
